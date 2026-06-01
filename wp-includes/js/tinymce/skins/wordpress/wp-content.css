@@ -18,7 +18,8 @@ body {
 	max-width: 100%;
 	-webkit-font-smoothing: antialiased !important;
 	overflow-wrap: break-word;
-	word-wrap: break-word; /* Old syntax */
+	word-wrap: break-word;
+	/* Old syntax */
 }
 
 body.rtl {
@@ -80,7 +81,8 @@ img {
 }
 
 .wp-caption {
-	margin: 0; /* browser reset */
+	margin: 0;
+	/* browser reset */
 	max-width: 100%;
 }
 
@@ -106,7 +108,8 @@ dl.wp-caption * {
 .wp-caption-dd {
 	font-size: 14px;
 	padding-top: 0.5em;
-	margin: 0; /* browser reset */
+	margin: 0;
+	/* browser reset */
 }
 
 .aligncenter {
@@ -153,19 +156,19 @@ img[data-mce-selected]::selection {
 }
 
 .mce-content-body img[data-wp-more="more"] {
-	background: transparent url(https://silvijnruben..com/wp-includes/js/tinymce/skins/wordpress/images/more.png) repeat-y scroll center center;
+	background: transparent url(https://silvijnruben.com/wp-includes/js/tinymce/skins/wordpress/images/more.png) repeat-y scroll center center;
 }
 
 .mce-content-body img[data-wp-more="nextpage"] {
-	background: transparent url(https://silvijnruben..com/wp-includes/js/tinymce/skins/wordpress/images/pagebreak.png) repeat-y scroll center center;
+	background: transparent url(https://silvijnruben.com/wp-includes/js/tinymce/skins/wordpress/images/pagebreak.png) repeat-y scroll center center;
 }
 
 .mce-object-style {
-	background-image: url(https://silvijnruben..com/wp-includes/js/tinymce/skins/wordpress/images/style.svg);
+	background-image: url(https://silvijnruben.com/wp-includes/js/tinymce/skins/wordpress/images/style.svg);
 }
 
 .mce-object-script {
-	background-image: url(https://silvijnruben..com/wp-includes/js/tinymce/skins/wordpress/images/script.svg);
+	background-image: url(https://silvijnruben.com/wp-includes/js/tinymce/skins/wordpress/images/script.svg);
 }
 
 /* Styles for formatting the boundaries of anchors and code elements */
@@ -220,7 +223,7 @@ img[data-mce-selected]::selection {
 }
 
 .mce-content-body img.wp-media.wp-gallery {
-	background-image: url(https://silvijnruben..com/wp-includes/js/tinymce/skins/wordpress/images/gallery.png);
+	background-image: url(https://silvijnruben.com/wp-includes/js/tinymce/skins/wordpress/images/gallery.png);
 }
 
 /* Image resize handles */
@@ -278,7 +281,8 @@ a[data-wplink-url-error]:before {
  */
 
 .wpview {
-	width: 99.99%; /* All IE need hasLayout, incl. 11 (ugh, not again!!) */
+	width: 99.99%;
+	/* All IE need hasLayout, incl. 11 (ugh, not again!!) */
 	position: relative;
 	clear: both;
 	margin-bottom: 16px;
@@ -329,6 +333,7 @@ a[data-wplink-url-error]:before {
 	0% {
 		margin-left: -60px;
 	}
+
 	100% {
 		margin-left: 60px;
 	}
@@ -338,12 +343,13 @@ a[data-wplink-url-error]:before {
 	0% {
 		margin-left: -60px;
 	}
+
 	100% {
 		margin-left: 60px;
 	}
 }
 
-.wpview .wpview-content > iframe {
+.wpview .wpview-content>iframe {
 	max-width: 100%;
 	background: transparent;
 }
@@ -475,7 +481,7 @@ a[data-wplink-url-error]:before {
 
 img.wp-oembed {
 	border: 1px dashed #888;
-	background: #f7f5f2 url(https://silvijnruben..com/wp-includes/js/tinymce/skins/wordpress/images/embedded.png) no-repeat scroll center center;
+	background: #f7f5f2 url(https://silvijnruben.com/wp-includes/js/tinymce/skins/wordpress/images/embedded.png) no-repeat scroll center center;
 	width: 300px;
 	height: 250px;
 	outline: 0;
@@ -487,17 +493,17 @@ img.wp-oembed {
 }
 
 @media print,
-	(-o-min-device-pixel-ratio: 5/4),
-	(-webkit-min-device-pixel-ratio: 1.25),
-	(min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
 
 	.mce-content-body img.mce-wp-more {
-		background-image: url(https://silvijnruben..com/wp-includes/js/tinymce/skins/wordpress/images/more-2x.png);
+		background-image: url(https://silvijnruben.com/wp-includes/js/tinymce/skins/wordpress/images/more-2x.png);
 		background-size: 1900px 20px;
 	}
 
 	.mce-content-body img.mce-wp-nextpage {
-		background-image: url(https://silvijnruben..com/wp-includes/js/tinymce/skins/wordpress/images/pagebreak-2x.png);
+		background-image: url(https://silvijnruben.com/wp-includes/js/tinymce/skins/wordpress/images/pagebreak-2x.png);
 		background-size: 1900px 20px;
 	}
 }
